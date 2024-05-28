@@ -1,8 +1,7 @@
 # AI-LAB-Project-Real--Time-Face-Movement-Tracking
 This Python project develops a real-time movement tracking system using nose detection via the HaarCascade Frontal Face model. It tracks nose movement in video streams or webcam feeds, providing a foundation for applications in surveillance, human-computer interaction, and gesture recognition.
 
-
-Real-Time Face Movement Tracking - README
+#**Real-Time Face Movement Tracking**
 Table of Contents
 Introduction
 Features
@@ -15,22 +14,30 @@ Contact
 Introduction
 This project tracks facial movements in real time using a webcam, leveraging computer vision and machine learning techniques.
 
-Features
+#****Features****
 Real-time face tracking
 Facial landmark detection
 Simple gesture recognition
 Cross-platform compatibility
-Requirements
+
+#**Requirements**
+
+
 Python 3.7+
 OpenCV
 dlib
 imutils
 numpy
 Installation
+
 Clone the repository:
-bash
-Copy code
+
+**bash**
+**Copy code**
+
+
 git clone https://github.com/yourusername/Real-Time-Face-Movement-Tracking.git
+
 Navigate to the project directory:
 bash
 Copy code
@@ -39,6 +46,9 @@ Create a virtual environment:
 bash
 Copy code
 python -m venv venv
+
+
+
 source venv/bin/activate  # On Windows: `venv\Scripts\activate`
 Install required packages:
 bash
